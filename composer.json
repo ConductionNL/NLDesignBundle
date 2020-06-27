@@ -1,0 +1,45 @@
+{
+	"name" : "conduction/nldesignbundle",
+	"type" : "library",
+	"description" : "Symfony Bundle for dutch common ground functionality",
+	"keywords" : [
+		"nldesign",
+		"nl",
+		"materialdesign",
+		"gebruikercentraal",
+		"commonground"
+	],
+	"homepage" : "https://conduction.nl",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Ruben van der Linde",
+			"email" : "ruben@conduction.nl"
+		}, {
+			"name" : "Conduction",
+			"homepage" : "https://conduction.nl"
+		}
+	],
+	"require" : {
+		"conduction/commongroundbundle": "^1.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Conduction\\NLDesignBundle\\" : ""
+		},
+		"exclude-from-classmap" : [
+			"/Tests/"
+		]
+	},
+	"minimum-stability" : "alpha",
+	"support" : {
+		"email" : "ruben@conduction.nl",
+		"issues" : "https://github.com/ConductionNL/NLDesignBundle/issues",
+		"source" : "https://github.com/ConductionNL/NLDesignBundle"
+	},
+	"repositories" : [{
+			"type" : "git",
+			"url" : "https://github.com/ConductionNL/NLDesignBundle",
+			"name" : "source"
+		}
+	]
+}
