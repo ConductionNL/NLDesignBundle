@@ -23,11 +23,12 @@
 	],
 	"require" : {
 		"php" : "^7.4.0",
-		"twig/extensions": "^1.5"
+		"twig/extensions": "^1.5",
+		"conduction/commongroundbundle": "dev-master"
 	},
 	"autoload" : {
 		"psr-4" : {
-			"Conduction\\CommonGroundBundle\\" : ""
+			"Conduction\\NLDesignBundle\\" : ""
 		},
 		"exclude-from-classmap" : [
 			"/Tests/"
