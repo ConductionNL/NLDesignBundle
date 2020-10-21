@@ -1,4 +1,4 @@
 # config/routes.yaml
 conduction_nldesign_default_index:
     path:       /
-    controller: Conduction\NLDesignBundle\Controller\DefaultController::index
+    controller: Conduction\NlDesignBundle\Controller\DefaultController::indexAction
